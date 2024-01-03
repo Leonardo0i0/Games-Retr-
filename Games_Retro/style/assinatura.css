@@ -1,0 +1,79 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    height: 100px;
+    background: #161A30;
+    padding: 0 20px; 
+}
+
+#menu {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+#menu h1{
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+#login{
+    display: flex;
+    color: white;
+    margin-right: 40px;
+}
+
+#div_logo {
+    display: flex;
+    align-items: center; 
+}
+
+#div_logo img {
+    width: 80px;
+    color: white;
+    margin-right: 10px; 
+}
+
+header h1 {
+    color: white;
+    font-size: 20px;
+    margin: 0 15px; 
+}
+
+body{
+    background: radial-gradient(circle, #31304D, #3e3c61, #31304D);
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+}
+.Assinatura{
+    margin-top: 100px;
+}
+.fileira-horizontal{    
+    height: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+}
+.Div-game-rigt{
+    width: 600px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.504);
+    margin: 0 150px;
+    
+}
+#itens{
+    align-items: flex-start;
+}
+.Div-game-rigt img{
+    width: 200px;
+}
+.Div-game-rigt p {
+    color: white;
+}

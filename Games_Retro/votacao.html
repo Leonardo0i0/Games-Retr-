@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votação</title>
+    <link rel="stylesheet" href="style/votacao.css">
+</head>
+<body>
+    <header>
+        <div id="div_logo">
+            <img id="logo" src="images/logo.png" alt="Logo">
+            <h1>Games Retrô</h1>
+        </div>
+        <div id="menu">
+            <a href="inicio.html"><h1>Loja</h1></a>
+            <a href="votacao.html"><h1>Votação</h1></a>
+            <a href="biblioteca.html"><h1>Biblioteca</h1></a>
+            <a href="Assinatura.html"><h1>Assinatura</h1></a>
+        </div>
+        <div id="login">
+            <p>iniciar sessão</p>
+            <p>  |  </p>
+            <p>idioma</p>
+        </div>
+    </header>
+
+    <div class="central">
+        <div>
+            <h1 style="color: white;">Votação para proximo Remaster</h1>
+        </div>
+        <div class="fileira-horizontal">
+            
+            <div class="Div-game-rigt">
+                <img src="images/re3.jpg" alt="imagem-game">
+                <p>Resident evil 3</p>
+                <button class="vote">VOTE</button>
+            </div>
+         
+            <div class="Div-game-rigt">
+                <img src="images/black.jpg" alt="imagem-game">
+                <p>Black</p>
+                <button class="vote">VOTE</button>
+            </div>
+         
+            <div class="Div-game-rigt">
+                <img src="images/god1.jpg" alt="imagem-game">
+                <p>God of War</p>
+                <button class="vote">VOTE</button>
+            </div>
+        </div>
+    </div>
+    <div class="demonstracao">
+        <div>
+            <h1 style="color: white;">Demonstração</h1>
+        </div>
+        <div class="fileira-horizontal-demo">
+            
+            <div class="Div-game-rigt-demo">
+                <img src="images/re3.jpg" alt="imagem-game">
+                <p>Resident evil 3</p>
+
+                <!-- Carrossel 1-->
+                <div class="slideshow-container carousel1">
+                    <div class="mySlides fade">
+                        <img src="images/RE3_remake_img1.jpeg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="images/Re3_remake_img2.jpeg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="images/Re3_remake_img3.jpeg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="images/Re3_remake_img4.jpeg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="images/Re3_remake_img5.jpeg" style="width:100%">
+                    </div>
+                </div>
+
+                <div style="text-align:center">
+                    <span class="thumbnail" onclick="currentSlide(1, 'carousel1')"><img src="images/RE3_remake_img1.jpeg" style="width:80px"></span>
+                    <span class="thumbnail" onclick="currentSlide(2, 'carousel1')"><img src="images/Re3_remake_img2.jpeg" style="width:80px"></span>
+                    <span class="thumbnail" onclick="currentSlide(3, 'carousel1')"><img src="images/Re3_remake_img3.jpeg" style="width:80px"></span>
+                    <span class="thumbnail" onclick="currentSlide(4, 'carousel1')"><img src="images/Re3_remake_img4.jpeg" style="width:80px"></span>
+                    <span class="thumbnail" onclick="currentSlide(5, 'carousel1')"><img src="images/Re3_remake_img5.jpeg" style="width:80px"></span>
+                </div>
+
+
+            </div>
+         
+            <div class="Div-game-rigt-demo">
+                <img src="images/black.jpg" alt="imagem-game">
+                <p>Black</p>
+
+                <!-- Carrossel 2 -->
+                <div class="slideshow-container carousel2">
+                    <div class="mySlides fade">
+                        <img src="images/black_remake_img1.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="images/black_remake_img2.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="images/black_remake_img3.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="images/black_remake_img4.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="images/black_remake_img5.webp" style="width:100%">
+                    </div>
+                </div>
+
+                <div style="text-align:center">
+                    <span class="thumbnail" onclick="currentSlide(1, 'carousel2')"><img src="images/black_remake_img1.jpg" style="width:80px"></span>
+                    <span class="thumbnail" onclick="currentSlide(2, 'carousel2')"><img src="images/black_remake_img2.jpg" style="width:80px"></span>
+                    <span class="thumbnail" onclick="currentSlide(3, 'carousel2')"><img src="images/black_remake_img3.jpg" style="width:80px"></span>
+                    <span class="thumbnail" onclick="currentSlide(4, 'carousel2')"><img src="images/black_remake_img4.jpg" style="width:80px"></span>
+                    <span class="thumbnail" onclick="currentSlide(5, 'carousel2')"><img src="images/black_remake_img5.webp" style="width:80px"></span>
+                </div>
+
+
+            </div>
+         
+            <div class="Div-game-rigt-demo">
+                <img src="images/god1.jpg" alt="imagem-game">
+                <p>God of War</p>
+
+                <div class="slideshow-container carousel3">
+                    <div class="mySlides fade">
+                        <img src="images/god21_remaster_img1.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="images/god21_remaster_img2.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="images/slide3.jpg" style="width:100%">
+                    </div>
+                </div>
+                
+                <div style="text-align:center">
+                    <span class="thumbnail" onclick="currentSlide(1, 'carousel3')"><img src="images/god21_remaster_img1.jpg" style="width:80px"></span>
+                    <span class="thumbnail" onclick="currentSlide(2, 'carousel3')"><img src="images/god21_remaster_img2.jpg" style="width:80px"></span>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="scripts/votacao.js"></script>
+    
+</body>
+</html>
